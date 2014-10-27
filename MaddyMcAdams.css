@@ -8,8 +8,8 @@
       padding: 0;
       list-style: none;
       background-color: #001D72;
-      border-bottom: 1px solid #ccc; 
-      border-top: 1px solid #ccc; }
+      border-bottom: 4px solid #ccc; 
+      border-top: 4px solid #ccc; }
    #nav li {
       float: left; }
    #nav li a {
@@ -19,10 +19,12 @@
       text-decoration: none;
       font-weight: bold;
       color: #FFFFFF;
-      border-right: 1px solid #ccc; }
+      border-right: 4px solid #ccc; }
    #nav li a:hover {
       color: #001D72;
-      background-color: #FFFFFF; }
+      background-color: #FFFFFF; 
+      font-style: italic;}
+
 
       
 
