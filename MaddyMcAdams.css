@@ -13,8 +13,9 @@
    #nav li {
       float: left; }
    #nav li a {
+      font-family: 'Roboto Slab', serif;
       display: block;
-      padding: 15px 25px;
+      padding: 10px 20px;
       text-decoration: none;
       font-weight: bold;
       color: #FFFFFF;
@@ -26,6 +27,7 @@
       
 
 #content {
-	background-color: #D9FFF2;
+	font-family: 'Roboto Slab', serif;
+   background-color: #D9FFF2;
 	color: black;
 }
