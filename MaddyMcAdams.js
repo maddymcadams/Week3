@@ -1,9 +1,27 @@
 $(document).ready(function(){
     $('#toggleButton').click(function(){
-    if($('#disclaimer').is(':visible')) {
-      $('#disclaimer').hide();
+    if($('#toggleParagraph').is(':visible')) {
+      $('#toggleParagraph').hide();
     } else {
-      $('#disclaimer').show();
+      $('#toggleParagraph').show();
     }
+  });
+});
+
+$(document).ready(function(){
+  $('#toggleTextOnButton').click(function(){
+    $('#toggleText').toggle();
+    
+    if($('#toggleText').is(':visible')) {
+      $(this).val('Show Less');
+    } else {
+      $(this).val('Show More');
+    }
+  });
+});
+
+$(document).ready(function(){
+  $('#hideButton').click(function(){
+    $('#paragraphToFadeOut').fadeOut();
   });
 });
