@@ -7,13 +7,14 @@
       margin: 0 0 3em 0;
       padding: 0;
       list-style: none;
-      background-color: #001D72;
+      background-color: #001642;
       border-bottom: 4px solid #ccc; 
       border-top: 4px solid #ccc; }
    #nav li {
       float: left; }
    #nav li a {
       font-family: 'Roboto Slab', serif;
+      font-size: 18px;
       display: block;
       padding: 10px 20px;
       text-decoration: none;
@@ -21,8 +22,8 @@
       color: #FFFFFF;
       border-right: 4px solid #ccc; }
    #nav li a:hover {
-      color: #001D72;
-      background-color: #FFFFFF; 
+      color: #001642;
+      background-color: #E7FFF7; 
       font-style: italic;}
 
 
